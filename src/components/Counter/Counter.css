@@ -1,4 +1,4 @@
-.bombs {
+.counter {
   background-color: #000000;
   width: 73px;
   height: 45px;
@@ -8,49 +8,49 @@
   align-items: center;
 }
 
-.bombs div {
+.counter div {
   width: 24px;
   height: 44px;
   background-image: url("../../assets/sprite@2.png");
   background-repeat: no-repeat;
 }
 
-.bombs__0 {
+.counter__0 {
   background-position: -252px 0;
 }
 
-.bombs__1 {
+.counter__1 {
   background-position: 0 0;
 }
 
-.bombs__2 {
+.counter__2 {
   background-position: -28px 0;
 }
 
-.bombs__3 {
+.counter__3 {
   background-position: -56px 0;
 }
 
-.bombs__4 {
+.counter__4 {
   background-position: -84px 0;
 }
 
-.bombs__5 {
+.counter__5 {
   background-position: -112px 0;
 }
 
-.bombs__6 {
+.counter__6 {
   background-position: -140px 0;
 }
 
-.bombs__7 {
+.counter__7 {
   background-position: -168px 0;
 }
 
-.bombs__8 {
+.counter__8 {
   background-position: -196px 0;
 }
 
-.bombs__9 {
+.counter__9 {
   background-position: -224px 0;
 }
