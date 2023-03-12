@@ -1,6 +1,6 @@
 import React from "react";
 import { Cell } from "../../components";
-import './Field.css'
+import './Field.module.scss'
 
 const Field:React.FC = () => {
 

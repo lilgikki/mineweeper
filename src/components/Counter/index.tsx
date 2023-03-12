@@ -1,13 +1,14 @@
 import React from "react";
-import './Counter.css'
+
+import styles from './Counter.module.scss';
 
 const Counter:React.FC = () => {
   return (
     <div className="minesweeper__counter-counter counter">
       <span className="visually-hidden">Счетчик</span>
-      <div className="counter__0"></div>
-      <div className="counter__0"></div>
-      <div className="counter__0"></div>
+      <div className={styles.counter__0}/>
+      <div className={styles.counter__0}/>
+      <div className={styles.counter__0}/>
     </div>
   )
 }

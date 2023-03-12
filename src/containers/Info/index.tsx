@@ -1,7 +1,7 @@
 import React from "react";
 import { Counter } from "../../components";
 import { Play } from "../../components";
-import './Info.css'
+import './Info.module.scss'
 
 const Info:React.FC = () => {
 
