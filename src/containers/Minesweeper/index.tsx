@@ -1,7 +1,7 @@
 import React from "react";
 import { Info } from "../../containers";
 import { Field } from "../../containers";
-import './Minesweeper.css'
+import './Minesweeper.module.scss'
 
 const Minesweeper:React.FC = () => {
 

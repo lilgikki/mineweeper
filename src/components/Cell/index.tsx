@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './Cell.css'
+import './Cell.module.scss'
 
 const Cell:React.FC = () => {
   const [cellState, setCellState] = useState('closed');

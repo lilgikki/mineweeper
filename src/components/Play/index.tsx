@@ -1,5 +1,5 @@
 import React from "react";
-import './Play.css'
+import './Play.module.scss'
 
 const Play:React.FC = () => {
 
