@@ -9,22 +9,22 @@
   background-repeat: no-repeat;
 }
 
-.minesweeper__play--start {
+.start {
   background-position: -1px -49px;
 }
 
-.minesweeper__play--start:hover {
+.start:hover {
   background-position: -55px -49px;
 }
 
-.minesweeper__play--scary {
+.scary {
   background-position: -109px -49px;
 }
 
-.minesweeper__play--happy {
+.happy {
   background-position: -163px -49px;
 }
 
-.minesweeper__play--dead {
+.-dead {
   background-position: -217px -49px;
 }

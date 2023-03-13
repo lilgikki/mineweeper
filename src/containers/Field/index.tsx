@@ -1,11 +1,11 @@
 import React from "react";
 import { Cell } from "../../components";
-import './Field.module.scss'
+import styles from './Field.module.scss'
 
 const Field:React.FC = () => {
 
   return (
-    <div className="minesweeper__field field">
+    <div className={styles.field}>
       <Cell/>
       <Cell/>
       <Cell/>
