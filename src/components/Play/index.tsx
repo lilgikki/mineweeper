@@ -3,7 +3,7 @@ import styles from './Play.module.scss'
 
 const Play:React.FC = () => {
 
-  const buttonStyles = styles.minesweeper__play + ' ' + styles.start;
+  const buttonStyles = styles.play + ' ' + styles.start;
 
   return (
     <button className={buttonStyles}>
