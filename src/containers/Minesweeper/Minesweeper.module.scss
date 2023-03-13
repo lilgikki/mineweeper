@@ -1,19 +1,18 @@
 .minesweeper {
   margin: auto;
-}
 
-.container {
-  composes: container from "../../styles/_common.scss";
-  background-color: #c0c0c0;
-  width: 556px;
-  height: 640px;
-  padding: 10px;
-  border: solid 4px #ffffff;
-  border-right: solid 4px #7b7b7b;
-  border-bottom: solid 4px #7b7b7b;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
+  .container {
+    background-color: #c0c0c0;
+    width: 556px;
+    height: 640px;
+    padding: 10px;
+    border: solid 4px #ffffff;
+    border-right: solid 4px #7b7b7b;
+    border-bottom: solid 4px #7b7b7b;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
